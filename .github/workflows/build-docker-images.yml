@@ -5,8 +5,8 @@ name: Builds
 on:
   workflow_dispatch:
   workflow_call:
-  schedule:
-    - cron: "0 1 * * *"
+  #schedule:
+  #  - cron: "0 1 * * *"
 
 env:
   PYTHON_VERSION: "3.10"
